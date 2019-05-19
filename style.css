@@ -1,0 +1,69 @@
+*{
+    
+    margin:0;
+    padding: 0;
+}
+body{
+    margin:0;
+    font-family: sans-serif;
+    font-size: 17px;
+    color:#926239;
+    line-height:1.6; 
+}
+.meditation
+{
+   background-image: url(meditaion.jpg);
+    background-size: cover;
+    background-position: cover;
+    height:100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0 20px;
+}
+.meditation h1{
+    font-size: 50px;
+}
+.meditation p{
+    font-size: 20px;
+}
+.meditation .button{
+    font-size: 18px;
+    text-decoration:none;
+    color: #926239;
+    border:#926239 1px solid;
+    padding:10px 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+.meditaion.button:hover{
+    background:#926239; 
+}
+#section-a{
+    padding: 20px;
+    background-color:#926239;
+    color: white;
+    text-align: center;
+}
+#section-b{
+    padding: 20px;
+    background-color:#926239;
+    color: white;
+    text-align: center;
+}
+#section-c{
+   display: flex;
+}
+#section-c div{
+    padding: 20px;
+}
+#section-c .box-1,#section-c .box-3{
+    background:#926239;
+    color: #fff;
+}
+#section-c .box-2{
+    background-color:#f9f9f9;
+    color:#fff;
+}
